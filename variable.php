@@ -1,13 +1,17 @@
 <?php
 
-include("fonction.php") ;
+include("poo.php") ;
+
+$majeur = new Majeur() ;
 
 $prenom = "Guiliano" ;
-$nom = "Gustave" ;
+$nom = strtoupper("Gustave") ;
 $age = 21 ;
 $affAge = true ;
 
 //affiche la sortie
+
+
  
-    echo majeurOrNot($nom,$prenom,$age);
+    echo $majeur->majeurOrNot($nom,$prenom,$age);
 ?>
