@@ -3,7 +3,7 @@
     class Majeur {
 
         //private $nomPrive = "petit nom"
-        public $monPublic = "Gulliano"
+        public $monPublic = "Gulliano" ;
     
         function majeurOrNot($nom,$prenom,$age){
         
@@ -23,17 +23,7 @@
                 }
     
                 return $affSortie ;
-    
 
-
-        
-    
-    
-    
-    
+        }   
     }
-
-
-
-
 ?>
